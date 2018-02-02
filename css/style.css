@@ -28,9 +28,55 @@ nav {
   height: 64px;
 }
 
+.search {
+  width: 326px;
+  position: relative;
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid #7D51C7;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  position: absolute;
+  right: -15px;
+  width: 40px;
+  height: 36px;
+  border: 1px solid #7D51C7;
+  background: #7D51C7;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  top: 15%;
+  padding: 10px 16px;
+}
+/**
+.topnav {
+  padding: 12px 16px;
+}
+**/
 .map {
 background-color: white;
 height: 230px;
+padding-top: 35px;
 }
 
 
@@ -72,7 +118,7 @@ padding: 1px 0 2px 16px;
   background-color:  white;
   margin: auto;
   width: 375px;
-  height: 231px;
+  height: 177px;
 }
 
 .bus-row .route, .bus-row .destination, .bus-row .departure {
@@ -119,6 +165,8 @@ footer {
 
 .tab_bar {
 }
+
+
 
 .navbar a {
     border-top: .5px solid #EFEFF4;
