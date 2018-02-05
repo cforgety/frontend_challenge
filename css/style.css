@@ -36,10 +36,10 @@ nav {
 .searchTerm {
   float: left;
   width: 100%;
-  border: 3px solid #7D51C7;
+  border: 2px solid #EFEFF4;
   padding: 5px;
   height: 20px;
-  border-radius: 5px;
+  border-radius: 12px;
   outline: none;
   color: #9DBFAF;
 }
@@ -50,67 +50,66 @@ nav {
 
 .searchButton {
   position: absolute;
-  right: -15px;
+  right: -16px;
   width: 40px;
-  height: 36px;
-  border: 1px solid #7D51C7;
-  background: #7D51C7;
+  height: 32px;
+  border: 2px solid #EFEFF4;
+  background: #EFEFF4;
   text-align: center;
-  color: #fff;
-  border-radius: 5px;
+  color: #6D6D72;
+  border-radius: 12px;
   cursor: pointer;
   font-size: 20px;
 }
 
-/*Resize the wrap to see the search bar change!*/
 .wrap{
   width: 30%;
   top: 15%;
   padding: 10px 16px;
 }
-/**
-.topnav {
-  padding: 12px 16px;
-}
-**/
+
 .map {
 background-color: white;
-height: 230px;
+height: 217px;
 padding-top: 35px;
 }
 
+.bus_icon {
+  position: absolute;
+  color: white;
+  left: 21%;
+  top: 60.5%;
+}
 
 .bus_stop {
+  display: inline-block;
   background-color: #7D51C7;
   color: white;
   font-family: sans-serif;
   font-weight: lighter;
-  height: 45px;
-  width: 359px;
-  padding: 5px 0 5px 16px;
-}
-
-.incoming_buses {
-  background-color: #EFEFF4;
-  border-bottom: 1px solid #C7C7C7;
-color: #6D6D72;
-font-family: sans-serif;
-font-size: 13px;
-font-weight: lighter;
-height: 35px;
-width: 359px;
-padding: 1px 0 2px 16px;
-}
-
-/**.status {
-  background-color: #7D51C7;
-  padding-top: 3px;
-  width: 120px;
   height: 30px;
-}**/
+  width: 337px;
+  padding: 20px 0 5px 38px;
+}
 
-.status p {
+.arrival {
+  display: inline;
+  position: absolute;
+  left: 55%;
+  top: 60.5%;
+  color: white;
+  font-size: 15px;
+}
 
+.status {
+  border-bottom: 1px solid #C7C7C7;
+  color: black;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  height: 26px;
+  width: 375px;
+  padding: 1px 0 10px 16px;
 }
 
 .bus_info_container{
@@ -118,7 +117,7 @@ padding: 1px 0 2px 16px;
   background-color:  white;
   margin: auto;
   width: 375px;
-  height: 177px;
+  height: 229px;
 }
 
 .bus-row .route, .bus-row .destination, .bus-row .departure {
@@ -164,9 +163,13 @@ footer {
 }
 
 .tab_bar {
+
 }
 
-
+.navbar {
+  width: 360px;
+  height: 100px;
+}
 
 .navbar a {
     border-top: .5px solid #EFEFF4;
@@ -174,10 +177,10 @@ footer {
     display: block;
     color: #6D6D72;
     text-align: center;
-    padding: 16px 25px;
+    padding: 27px 25px 5px 25px;
     text-decoration: none;
     font-weight: lighter;
-    font-size: 13px;
+    font-size: 12px;
     font-family: sans-serif;
 }
 
@@ -189,4 +192,32 @@ footer {
 .navbar a.active {
     background-color: #7D51C7;
     color: white;
+}
+
+.map_icon {
+  color: white;
+  position: absolute;
+  left: 23.1%;
+  bottom: -.5%;
+}
+
+.route_icon {
+  color: #6D6D72;
+  position: absolute;
+  left: 38.3%;
+  bottom: -.5%;
+}
+
+.explore_icon {
+  color: #6D6D72;
+  position: absolute;
+  left: 54.1%;
+  bottom: -.5%;
+}
+
+.account_icon {
+  color: #6D6D72;
+  position: absolute;
+  left: 70%;
+  bottom: -.5%;
 }
