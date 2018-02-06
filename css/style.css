@@ -76,30 +76,30 @@ padding-top: 35px;
 
 .bus_icon {
   position: absolute;
+  display: inline-block;
   color: white;
-  left: 21%;
-  top: 60.5%;
+  padding: 19px 0 16px 16px;
 }
 
-.bus_stop {
-  display: inline-block;
+.bus_stop_block {
   background-color: #7D51C7;
+}
+
+.bus_stop, .arrival {
+  display: inline-block;
   color: white;
   font-family: sans-serif;
   font-weight: lighter;
   height: 30px;
-  width: 337px;
+  width: 140px;
   padding: 20px 0 5px 38px;
 }
 
 .arrival {
-  display: inline;
-  position: absolute;
-  left: 55%;
-  top: 60.5%;
-  color: white;
   font-size: 15px;
 }
+
+
 
 .status {
   border-bottom: 1px solid #C7C7C7;
@@ -163,9 +163,13 @@ footer {
 }
 
 .tab_bar {
+  border-top: .5px solid #EFEFF4;
+  height: 50px;
+  weight: 375px;
 
 }
 
+/*
 .navbar {
   width: 360px;
   height: 100px;
@@ -193,31 +197,34 @@ footer {
     background-color: #7D51C7;
     color: white;
 }
+*/
+.tab_icons  {
+  display: inline-block;
+  float: left;
+  width: 375px;
+  padding: 0px 30px 0 30px;
+}
+
+.tabs p {
+display: inline;
+color: #6D6D72;
+font-family: sans-serif;
+font-size: 12px;
+font-weight: lighter;
+width: 375px;
+padding: 0px 17px 0 31px;
+}
+
+.map_icon, .route_icon, .explore_icon, .account_icon {
+  display: inline-block;
+  float: left;
+  padding: 5px 70px 0 7px;
+}
 
 .map_icon {
-  color: white;
-  position: absolute;
-  left: 23.1%;
-  bottom: -.5%;
+  color: #7D51C7;
 }
 
-.route_icon {
+.route_icon, .explore_icon, .account_icon {
   color: #6D6D72;
-  position: absolute;
-  left: 38.3%;
-  bottom: -.5%;
-}
-
-.explore_icon {
-  color: #6D6D72;
-  position: absolute;
-  left: 54.1%;
-  bottom: -.5%;
-}
-
-.account_icon {
-  color: #6D6D72;
-  position: absolute;
-  left: 70%;
-  bottom: -.5%;
 }
