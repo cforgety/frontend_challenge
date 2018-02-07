@@ -17,7 +17,7 @@ h1 {
   font-family: sans-serif;
   color: white;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 28px;
 
 }
 
@@ -25,7 +25,7 @@ nav {
   background-color: #7D51C7;
   margin: auto;
   width: 375px;
-  height: 64px;
+  height: 60px;
 }
 
 .search {
@@ -107,7 +107,11 @@ padding-top: 35px;
   font-weight: normal;
   height: 26px;
   width: 375px;
-  padding: 1px 0 10px 16px;
+  padding-bottom: 1px;
+}
+
+.status p {
+padding-left: 16px;
 }
 
 .bus_info_container{
@@ -116,6 +120,27 @@ padding-top: 35px;
   margin: auto;
   width: 375px;
   height: 229px;
+}
+
+.title .line_title, .title .destination_title, .title .departure_title {
+  display: inline-block;
+  color: #6D6D72;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding: 0px 16px 8px 16px;
+  margin: 3px 0px;
+}
+
+.line_title {
+  width: 11%;
+}
+
+.destination_title {
+  width: 22%;
+}
+
+.departure_title {
+  width: 15%;
 }
 
 .bus-row .route, .bus-row .destination, .bus-row .departure {
@@ -143,16 +168,6 @@ padding-top: 35px;
   border-bottom: 1px solid #C7C7C7;
   padding: 9px 0;
   height: 20px;
-}
-
-h3 {
-  display: inline;
-  color: #6D6D72;
-  font-size: 15px;
-  font-family: sans-serif;
-  font-weight: lighter;
-  padding-left: 16px;
-  margin-right: 25px;
 }
 
 footer {
