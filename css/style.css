@@ -99,19 +99,8 @@ padding-top: 35px;
   font-size: 15px;
 }
 
-.status {
+.bus_headings {
   border-bottom: 1px solid #C7C7C7;
-  color: black;
-  font-family: sans-serif;
-  font-size: 13px;
-  font-weight: normal;
-  height: 26px;
-  width: 375px;
-  padding-bottom: 1px;
-}
-
-.status p {
-padding-left: 16px;
 }
 
 .bus_info_container{
@@ -119,48 +108,26 @@ padding-left: 16px;
   background-color:  white;
   margin: auto;
   width: 375px;
-  height: 229px;
+  height: 200px;
 }
 
-.title .line_title, .title .destination_title, .title .departure_title {
-  display: inline-block;
+table {
+padding-left: 16px;
+}
+
+th {
+  text-align: center;
   color: #6D6D72;
   font-size: 15px;
   font-family: sans-serif;
-  padding: 0px 16px 8px 16px;
-  margin: 3px 0px;
+  font-weight: normal;
 }
 
-.line_title {
-  width: 11%;
-}
-
-.destination_title {
-  width: 22%;
-}
-
-.departure_title {
-  width: 15%;
-}
-
-.bus-row .route, .bus-row .destination, .bus-row .departure {
-  display: inline-block;
-  font-size: 13px;
-  font-family: sans-serif;
-  padding: 6px 16px;
-  margin: 3px 0px;
-}
-
-.bus-row .route {
-  width: 11%;
-}
-
-.bus-row .destination {
-  width: 22%;
-}
-
-.bus-row .departure {
-  width: 15%;
+tr {
+font-size: 14px;
+text-align: center;
+font-family: sans-serif;
+height: 30px;
 }
 
 .heading {
@@ -170,8 +137,11 @@ padding-left: 16px;
   height: 20px;
 }
 
-footer {
-
+.status {
+  padding-left: 16px;
+  color: #6D6D72;
+  font-size: 14px;
+  font-family: sans-serif;
 }
 
 .tab_bar {
