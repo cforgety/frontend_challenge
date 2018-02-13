@@ -11,23 +11,6 @@ body {
   height: 667px;
 }
 
-h1 {
-  font-size: 1em;
-  font-weight: lighter;
-  font-family: sans-serif;
-  color: white;
-  text-align: center;
-  padding-top: 28px;
-
-}
-
-nav {
-  background-color: #7D51C7;
-  margin: auto;
-  width: 375px;
-  height: 60px;
-}
-
 .search {
   width: 326px;
   position: relative;
@@ -109,11 +92,7 @@ padding-top: 35px;
   background-color:  white;
   margin: auto;
   width: 375px;
-  height: 195px;
-}
-
-h4 {
-  display: inline-block;
+  height: 181px;
 }
 
 .line {
@@ -129,7 +108,7 @@ h4 {
 }
 
 table {
-  font-size: 13px;
+  font-size: 14px;
   text-align: left;
   font-family: sans-serif;
   height: 30px;
@@ -158,13 +137,13 @@ width: 14%;
   background-color: #EFEFF4;
   border-bottom: 1px solid #C7C7C7;
   padding: 9px 0;
-  height: 20px;
+  height: 15px;
 }
 
 .status {
   padding-left: 16px;
   color: #6D6D72;
-  font-size: 14px;
+  font-size: 13px;
   font-family: sans-serif;
 }
 
